@@ -14,7 +14,7 @@ USAGE = 'USAGE:\n' \
     'where:\n' \
     '   n == number of dice\n' \
     '   x == number of sides on each die\n' \
-    'e.g. `/roll 3d6` will roll 3 6-sided dice' \
+    'e.g. `/roll 3d6` will roll 3 6-sided dice. ' \
     '[options] may be any of (hide|hidden|invisible|ephemeral) ' \
     'for a private roll.'
 
