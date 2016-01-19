@@ -6,7 +6,7 @@ import sys
 app = Flask(__name__)
 
 SPEC = re.compile('^(\d+)d(\d+) ?(\w+)?$')
-HIDDEN = ('hide', 'hidden', 'invisible', 'ephemeral')
+HIDDEN = ('hide', 'hidden', 'invisible', 'ephemeral', 'private')
 
 
 USAGE = 'USAGE:\n' \
@@ -15,7 +15,7 @@ USAGE = 'USAGE:\n' \
     '   n == number of dice\n' \
     '   x == number of sides on each die\n' \
     'e.g. `/roll 3d6` will roll 3 6-sided dice. ' \
-    '[options] may be any of (hide|hidden|invisible|ephemeral) ' \
+    '[options] may be any of (hide|hidden|invisible|ephemeral|private) ' \
     'for a private roll.'
 
 
