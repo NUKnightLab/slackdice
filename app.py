@@ -10,10 +10,10 @@ HIDDEN = ('hide', 'hidden', 'invisible', 'ephemeral')
 
 
 USAGE = 'USAGE:\n' \
-    '/roll _n_d_x_ [options]\n' \
+    '`/roll [n]d[x] [options]`\n' \
     'where:\n' \
-    '   _n_ == number of dice\n' \
-    '   _x_ == number of sides on each die\n' \
+    '   n == number of dice\n' \
+    '   x == number of sides on each die\n' \
     'e.g. `/roll 3d6` will roll 3 6-sided dice' \
     '[options] may be any of (hide|hidden|invisible|ephemeral) ' \
     'for a private roll.'
