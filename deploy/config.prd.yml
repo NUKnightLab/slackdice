@@ -1,0 +1,2 @@
+domain: "dice.knightlab.com"
+gunicorn_reload: False
