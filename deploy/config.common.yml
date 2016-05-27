@@ -1,7 +1,7 @@
 project_name: slackdice
 
 port: 9019
-python: python2
+python: python3
 type: flask
 
 # Configs below will not usually change
