@@ -1,5 +1,5 @@
-# git-deploy 1.0.1
 project_name: slackdice
+gitdeploy_version: "1.0.1"
 
 port: 9019
 python: python2
